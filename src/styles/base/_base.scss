@@ -1,0 +1,18 @@
+@import "../variables/fonts";
+@import "reset";
+@import "fonts";
+@import "img";
+@import "link";
+@import "typography";
+
+.g-wrap {
+	width: 100%;
+	max-width: 992px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+body {
+	font-family: $fontFamily;
+	font-size: 14px;
+}

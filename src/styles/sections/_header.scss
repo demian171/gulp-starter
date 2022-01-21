@@ -1,0 +1,47 @@
+@import "../variables/colors";
+
+.g-header {
+	background-color: $main_color;
+	padding: 12px 0;
+	box-sizing: border-box;
+}
+
+.header__wrap {
+	display: flex;
+	align-items: center;
+}
+
+.header__logo {
+	.logo {
+		margin-right: 16px;
+	}
+
+	.logo-wrap {
+		display: flex;
+		align-items: center;
+		font-weight: 800;
+		font-size: 28px;
+		line-height: 1.2;
+		color: #1a1a1a;
+	}
+}
+
+.header__search {
+
+}
+
+.header__navigation {
+	.navigation__list {
+		display: flex;
+		align-items: center;
+		margin: 0;
+	}
+
+	.list__item {
+		width: 24px;
+
+		&:not(:last-child) {
+			margin-right: 34px;
+		}
+	}
+}

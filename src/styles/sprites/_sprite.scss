@@ -1,0 +1,32 @@
+[class*="svg-"] { font-size: 20px; position: relative;
+
+	&:before { content: ''; display: block; }
+
+	svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+}
+
+.svg-cart { width: calc(18/20 * 1em);
+
+	&:before { padding-bottom: calc(20 / 18 * 100%); }
+
+}
+
+.svg-dog { width: calc(22/20 * 1em);
+
+	&:before { padding-bottom: calc(21 / 22 * 100%); }
+
+}
+
+.svg-favorites { width: calc(20/20 * 1em);
+
+	&:before { padding-bottom: calc(18 / 20 * 100%); }
+
+}
+
+.svg-search { width: calc(24/20 * 1em);
+
+	&:before { padding-bottom: calc(24 / 24 * 100%); }
+
+}
+
